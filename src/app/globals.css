@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --color-blue: #118ab2;
+  --color-green: #06d6a0;
+  --color-yellow: #ffd166;
+  --color-pink: #ef476f;
+  --color-dark: #073b4c;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-pink: var(--color-pink);
+  --color-yellow: var(--color-yellow);
+  --color-green: var(--color-green);
+  --color-blue: var(--color-blue);
+  --color-dark: var(--color-dark);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-lexend-mega: var(--font-lexend-mega);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-lexend-mega);
+  font-weight: 900; /* Make headers bolder */
+  letter-spacing: -0.2em; /* Make space between characters smaller */
+}
+
+h1 {
+  font-size: 3rem; /* 48px */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+.bg-pink { background-color: var(--color-pink); }
+.bg-yellow { background-color: var(--color-yellow); }
+.bg-green { background-color: var(--color-green); }
+.bg-blue { background-color: var(--color-blue); }
+.bg-dark { background-color: var(--color-dark); }
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
