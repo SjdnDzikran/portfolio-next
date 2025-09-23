@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <div className="min-h-screen p-8 bg-blue">
-      <header className="flex justify-between items-center bg-white border-4 border-black rounded-none">
-        <h1 className="text-2xl pl-4">Dzikran Azka Sajidan</h1>
+    <div className="min-h-screen px-24 py-12 bg-blue">
+      <header className="flex justify-between items-center bg-white border-5 border-black rounded-none">
+        <h1 className="text-2xl px-4 text-white bg-black">Dzikran Azka Sajidan</h1>
         <button className="p-1 pr-4"> {/* Adjusted padding to make it less prominent, but still clickable */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
