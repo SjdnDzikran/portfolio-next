@@ -41,12 +41,12 @@ const spaceMono = localFont({
 
 export const metadata: Metadata = {
   title: "Dzikran Azka Sajidan - Software Engineer",
-  description: "The portfolio of Dzikran Azka Sajidan, a passionate software engineer specializing in mobile app development.",
-  keywords: ["portfolio", "software engineer", "mobile app developer", "flutter", "dart"],
+  description: "Portfolio of Dzikran Azka Sajidan, a software engineer specializing in mobile app development with Flutter. Experienced in frontend technologies like Next.js and Blazor, and backend development with .NET.",
+  keywords: ["portfolio", "software engineer", "mobile app developer", "flutter", "dart", "next.js", "blazor", ".net", "frontend", "backend"],
   authors: [{ name: "Dzikran Azka Sajidan" }],
   openGraph: {
     title: "Dzikran Azka Sajidan - Software Engineer",
-    description: "The portfolio of Dzikran Azka Sajidan, a passionate software engineer specializing in mobile app development.",
+    description: "Portfolio of Dzikran Azka Sajidan, a software engineer specializing in mobile app development with Flutter. Experienced in frontend technologies like Next.js and Blazor, and backend development with .NET.",
     url: "https://your-domain.com",
     siteName: "Dzikran Azka Sajidan's Portfolio",
     // images: [
@@ -62,9 +62,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Dzikran Azka Sajidan - Software Engineer",
-    description: "The portfolio of Dzikran Azka Sajidan, a passionate software engineer specializing in mobile app development.",
-    creator: "@sjdn_dzikran",
-    // images: ["https://your-domain.com/og-image.png"], // Path to your OG image
+    description: "Portfolio of Dzikran Azka Sajidan, a software engineer specializing in mobile app development with Flutter. Experienced in frontend technologies like Next.js and Blazor, and backend development with .NET.",
+    creator: "@your_twitter_handle",
+    images: ["https://your-domain.com/og-image.png"], // Path to your OG image
   },
   icons: {
     apple: "/favicon/apple-touch-icon.png",
