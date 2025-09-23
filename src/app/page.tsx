@@ -1,9 +1,9 @@
 export default function Home() {
   return (
-    <div className="min-h-screen p-8">
-      <header className="flex justify-between items-center">
-        <h1 className="text-2xl">Dzikran Azka Sajidan</h1>
-        <button className="p-1"> {/* Adjusted padding to make it less prominent, but still clickable */}
+    <div className="min-h-screen p-8 bg-blue">
+      <header className="flex justify-between items-center bg-white border-4 border-black rounded-none">
+        <h1 className="text-2xl pl-4">Dzikran Azka Sajidan</h1>
+        <button className="p-1 pr-4"> {/* Adjusted padding to make it less prominent, but still clickable */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-7 w-7" /* Adjusted size to be slightly larger, closer to text height */
