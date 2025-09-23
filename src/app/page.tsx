@@ -33,10 +33,10 @@ export default function Home() {
         </button>
       </header>
       <div className="flex flex-col my-8 items-start bg-white border-[5px] border-black rounded-none p-8">
-        <h2 className="text-6xl mb-4">Hi, I'm Dzikran.</h2>
+        <h2 className="text-6xl mb-4">Hi, I&apos;m Dzikran.</h2>
         <p className="text-2xl">
-          I'm a software engineer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I'm focused on
+          I&apos;m a software engineer specializing in building (and occasionally
+          designing) exceptional digital experiences. Currently, I&apos;m focused on
           building accessible, human-centered products at Upstatement.
         </p>
       </div>
