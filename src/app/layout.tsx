@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -8,14 +8,35 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 const lexendMega = localFont({
   src: "../../public/fonts/Lexend_Mega/LexendMega-VariableFont_wght.ttf",
   variable: "--font-lexend-mega",
+});
+
+const spaceMono = localFont({
+  src: [
+    {
+      path: "../../public/fonts/Space_Mono/SpaceMono-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/Space_Mono/SpaceMono-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/Space_Mono/SpaceMono-Italic.ttf",
+      weight: "400",
+      style: "italic",
+    },
+    {
+      path: "../../public/fonts/Space_Mono/SpaceMono-BoldItalic.ttf",
+      weight: "700",
+      style: "italic",
+    },
+  ],
+  variable: "--font-space-mono",
 });
 
 export const metadata: Metadata = {
@@ -31,7 +52,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${lexendMega.variable} antialiased`}
+        className={`${geistSans.variable} ${lexendMega.variable} ${spaceMono.variable} antialiased`}
       >
         {children}
       </body>
