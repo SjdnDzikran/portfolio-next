@@ -18,6 +18,7 @@
   --color-foreground: var(--foreground);
   --color-pink: var(--color-pink);
   --color-yellow: var(--color-yellow);
+  --color-orange: var(--color-orange);
   --color-green: var(--color-green);
   --color-blue: var(--color-blue);
   --color-dark: var(--color-dark);
@@ -53,6 +54,7 @@ h1 {
 .bg-green { background-color: var(--color-green); }
 .bg-blue { background-color: var(--color-blue); }
 .bg-dark { background-color: var(--color-dark); }
+.bg-orange { background-color: var(--color-orange); }
 
 body {
   background: var(--background);
