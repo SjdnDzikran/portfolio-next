@@ -3,7 +3,7 @@ export default function Home() {
     <div className="min-h-screen px-24 py-4 bg-blue">
       <header className="flex justify-between my-8 items-stretch bg-white border-[5px] border-black rounded-none">
         <h1 className="text-xl px-4 border-r-[8px] border-black text-white bg-black hover:text-blue hover:cursor-pointer transition-colors duration-100 flex items-center">Dzikran Azka Sajidan</h1>
-        <button className="px-8 rounded-none border-l-[5px] border-black">
+        <button className="px-8 rounded-none border-l-[5px] border-black hover:cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-10 w-10 text-black"
@@ -15,7 +15,19 @@ export default function Home() {
               strokeLinecap="square"
               strokeLinejoin="miter"
               strokeWidth={2.2}
-              d="M4 6h16M4 12h16M4 18h16"
+              d="M4 6h14.08"
+            />
+            <path
+              strokeLinecap="square"
+              strokeLinejoin="miter"
+              strokeWidth={2.2}
+              d="M4 12h17.6"
+            />
+            <path
+              strokeLinecap="square"
+              strokeLinejoin="miter"
+              strokeWidth={2.2}
+              d="M4 18h17.6"
             />
           </svg>
         </button>
