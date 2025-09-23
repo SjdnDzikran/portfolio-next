@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="min-h-screen px-24 py-12 bg-blue">
+    <div className="min-h-screen px-24 py-4 bg-blue">
       <header className="flex justify-between my-8 items-center bg-white border-[5px] border-black rounded-none">
         <h1 className="text-xl px-4 border-r-[8px] border-black text-white bg-black hover:text-blue transition-colors duration-100">Dzikran Azka Sajidan</h1>
         <button className=" px-8 rounded-none border-l-[5px] border-black"> 
@@ -21,7 +21,7 @@ export default function Home() {
         </button>
       </header>
       <div className="flex justify-between items-center bg-white border-[5px] border-black rounded-none">
-        <h2 className="text-7xl mt-20 mb-6">Hi, I'm Dzikran.</h2>
+        <h2 className="text-6xl mt-20 mb-6">Hi, I'm Dzikran.</h2>
         <p className="text-2xl max-w-xl">
           I'm a software engineer specializing in building (and occasionally
           designing) exceptional digital experiences. Currently, I'm focused on
