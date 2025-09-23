@@ -20,15 +20,18 @@ export default function Home() {
           </svg>
         </button>
       </header>
-      <div className="flex justify-between my-8 items-center bg-white border-[5px] border-black rounded-none">
-        <h2 className="text-6xl mt-20 mb-6">Hi, I'm Dzikran.</h2>
-        <p className="text-2xl max-w-xl">
+      <div className="flex flex-col my-8 items-start bg-white border-[5px] border-black rounded-none p-8">
+        <h2 className="text-6xl mb-4">Hi, I'm Dzikran.</h2>
+        <p className="text-2xl">
           I'm a software engineer specializing in building (and occasionally
           designing) exceptional digital experiences. Currently, I'm focused on
           building accessible, human-centered products at Upstatement.
         </p>
       </div>
       {/* The rest of the page content will go here */}
+      
+      {/* Coming Soon*/}
+      <h2 className="text-8xl mt-20 mb-6 text-white text-center w-full">Coming Soon</h2>
     </div>
   );
 }
