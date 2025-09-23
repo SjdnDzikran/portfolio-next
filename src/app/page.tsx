@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div className="min-h-screen px-24 py-12 bg-blue">
       <header className="flex justify-between my-8 items-center bg-white border-[5px] border-black rounded-none">
-        <h1 className="text-xl px-4 border-r-[5px] border-black text-white bg-black hover:text-blue transition-colors duration-100">Dzikran Azka Sajidan</h1>
+        <h1 className="text-xl px-4 border-r-[8px] border-black text-white bg-black hover:text-blue transition-colors duration-100">Dzikran Azka Sajidan</h1>
         <button className=" px-8 rounded-none border-l-[5px] border-black"> 
           <svg
             xmlns="http://www.w3.org/2000/svg"
