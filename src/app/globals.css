@@ -6,6 +6,7 @@
 
   /* color palette for bg */
   --color-blue: #118ab2;
+  --color-orange: #f0861a;
   --color-green: #06d6a0;
   --color-yellow: #ffd166;
   --color-pink: #ef476f;
@@ -17,12 +18,13 @@
   --color-foreground: var(--foreground);
   --color-pink: var(--color-pink);
   --color-yellow: var(--color-yellow);
+  --color-orange: var(--color-orange);
   --color-green: var(--color-green);
   --color-blue: var(--color-blue);
   --color-dark: var(--color-dark);
   --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
   --font-lexend-mega: var(--font-lexend-mega);
+  --font-space-mono: var(--font-space-mono);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,22 +33,28 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.2em; /* Make space between characters smaller */
 }
 
+p {
+  font-family: var(--font-space-mono);
+  letter-spacing: -0.05em; 
+}
+
 h1 {
   font-size: 3rem; /* 48px */
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 .bg-pink { background-color: var(--color-pink); }
 .bg-yellow { background-color: var(--color-yellow); }
 .bg-green { background-color: var(--color-green); }
 .bg-blue { background-color: var(--color-blue); }
 .bg-dark { background-color: var(--color-dark); }
+.bg-orange { background-color: var(--color-orange); }
 
 body {
   background: var(--background);

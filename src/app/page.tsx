@@ -1,26 +1,49 @@
 export default function Home() {
   return (
-    <div className="min-h-screen p-8 bg-blue">
-      <header className="flex justify-between items-center bg-white border-4 border-black rounded-none">
-        <h1 className="text-2xl pl-4">Dzikran Azka Sajidan</h1>
-        <button className="p-1 pr-4"> {/* Adjusted padding to make it less prominent, but still clickable */}
+    <div className="min-h-screen px-24 py-4 bg-blue">
+      <header className="flex justify-between my-8 items-stretch bg-white border-[5px] border-black rounded-none">
+        <h1 className="text-xl px-4 border-r-[8px] border-black text-white bg-black hover:text-blue hover:cursor-pointer transition-colors duration-100 flex items-center">Dzikran Azka Sajidan</h1>
+        <button className="px-8 rounded-none border-l-[5px] border-black hover:cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-7 w-7" /* Adjusted size to be slightly larger, closer to text height */
+            className="h-10 w-10 text-black"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
           >
             <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M4 6h16M4 12h16M4 18h16"
+              strokeLinecap="square"
+              strokeLinejoin="miter"
+              strokeWidth={2.2}
+              d="M4 6h14.08"
+            />
+            <path
+              strokeLinecap="square"
+              strokeLinejoin="miter"
+              strokeWidth={2.2}
+              d="M4 12h17.6"
+            />
+            <path
+              strokeLinecap="square"
+              strokeLinejoin="miter"
+              strokeWidth={2.2}
+              d="M4 18h17.6"
             />
           </svg>
         </button>
       </header>
+      <div className="flex flex-col my-8 items-start bg-white border-[5px] border-black rounded-none p-8">
+        <h2 className="text-6xl mb-4">Hi, I&apos;m Dzikran.</h2>
+        <p className="text-2xl">
+          I&apos;m a software engineer specializing in building (and occasionally
+          designing) exceptional digital experiences. Currently, I&apos;m focused on
+          building accessible, human-centered products at Upstatement.
+        </p>
+      </div>
       {/* The rest of the page content will go here */}
+      
+      {/* Coming Soon*/}
+      <h2 className="text-8xl mt-20 mb-6 text-white text-center w-full">Coming Soon</h2>
     </div>
   );
 }
